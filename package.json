@@ -1,6 +1,6 @@
 {
   "name": "request-promise-sec-fix-pkg",
-  "version": "5.0.2",
+  "version": "5.0.3",
   "description": "The simplified HTTP request client 'request' with Promise support. Powered by Bluebird. with security fix",
   "keywords": [
     "xhr",
