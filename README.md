@@ -303,7 +303,7 @@ The methods `.then(...)`, `.catch(...)`, and `.finally(...)` - which you can cal
 
 ``` js
 // As a Request user you would write:
-var request = require('request-sec-fix-pkg');
+var request = require('request');
 
 request('http://google.com', function (err, response, body) {
     if (err) {
