@@ -39,7 +39,7 @@
     "tough-cookie": "^4.1.3"
   },
   "peerDependencies": {
-    "request": "^2.34"
+    "request-sec-fix-pkg": "~3.0.1"
   },
   "devDependencies": {
     "body-parser": "~1.15.2",

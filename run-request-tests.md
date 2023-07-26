@@ -23,7 +23,7 @@ module.exports = require('../request-promise/')
 ```
 
 6. Go to temp/request-promise/lib/rp.js
-7. Comment out the `var request = stealthyRequire('request');` line.
+7. Comment out the `var request = stealthyRequire('request-sec-fix-pkg');` line.
 8. Add `var request = require('../../request/index-orig.js');` right below.
 9. Go to temp/request/ and run `npm test`.
 

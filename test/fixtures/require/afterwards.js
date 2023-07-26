@@ -1,7 +1,7 @@
 'use strict';
 
 var rp = require('../../../lib/rp.js');
-var request = require('request');
+var request = require('request-sec-fix-pkg');
 
 var rpHasThen = rp('http://localhost:4000/200').then !== undefined;
 var requestHasNoThen = request('http://localhost:4000/200').then === undefined;
