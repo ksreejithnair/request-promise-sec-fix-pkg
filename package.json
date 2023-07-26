@@ -1,7 +1,7 @@
 {
-  "name": "request-promise",
-  "version": "4.2.6",
-  "description": "The simplified HTTP request client 'request' with Promise support. Powered by Bluebird.",
+  "name": "request-promise-sec-fix-pkg",
+  "version": "5.0.0",
+  "description": "The simplified HTTP request client 'request' with Promise support. Powered by Bluebird. with security fix",
   "keywords": [
     "xhr",
     "http",
@@ -21,14 +21,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/request/request-promise.git"
+    "url": "git+https://github.com/ksreejithnair/request-promise-sec-fix-pkg.git"
   },
-  "author": "Nicolai Kamenzky (https://github.com/analog-nico)",
+  "author": "Sreejith Nair (ksreejithnair@gmail.com)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/request/request-promise/issues"
   },
-  "homepage": "https://github.com/request/request-promise#readme",
+  "homepage": "https://github.com/ksreejithnair/request-promise-sec-fix-pkg#readme",
   "engines": {
     "node": ">=0.10.0"
   },
@@ -36,7 +36,7 @@
     "request-promise-core": "1.1.4",
     "bluebird": "^3.5.0",
     "stealthy-require": "^1.1.1",
-    "tough-cookie": "^2.3.3"
+    "tough-cookie": "^4.1.3"
   },
   "peerDependencies": {
     "request": "^2.34"
